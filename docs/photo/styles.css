@@ -1,0 +1,15 @@
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.image-container {
+    width: 48%; /* Set the width of each image container */
+    text-align: center;
+}
+
+.caption {
+    margin-top: 5px;
+    font-size: 14px;
+}
