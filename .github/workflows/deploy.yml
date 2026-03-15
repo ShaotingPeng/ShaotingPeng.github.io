@@ -34,6 +34,8 @@ jobs:
         run: npm run build
         env:
           BASE_URL: /
+          VITE_SITE_TITLE: Shaoting Peng
+          VITE_GA_ID: G-B4PERRK1L1
 
       - name: Ensure SPA fallback and .nojekyll
         run: |
