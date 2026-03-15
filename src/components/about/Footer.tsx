@@ -18,21 +18,6 @@ const Footer: React.FC = () => {
     >
       <Container maxW="7xl" px={[4, 6, 8]}>
         <VStack spacing={[3, 4]} textAlign="center">
-          {/* Logo */}
-          <Link
-            href="https://github.com/H-Freax/TermHub"
-            isExternal
-            _hover={{ opacity: 0.85, transform: 'translateY(-1px)' }}
-            transition="all 0.2s"
-          >
-            <Image
-              src={`${import.meta.env.BASE_URL}logo.svg`}
-              alt="TermHub"
-              h={["40px", "48px"]}
-              objectFit="contain"
-            />
-          </Link>
-
           <HStack
             spacing={1}
             color={textColor}

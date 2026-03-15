@@ -57,10 +57,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             transition="opacity 0.15s"
           >
             <Image
-              src={`${import.meta.env.BASE_URL}logo-icon.svg`}
-              alt="TermHub"
+              src={`${import.meta.env.BASE_URL}mer.JPG`}
+              alt="logo"
               h="28px"
               w="28px"
+              borderRadius="full"
+              objectFit="cover"
             />
           </ChakraLink>
 
