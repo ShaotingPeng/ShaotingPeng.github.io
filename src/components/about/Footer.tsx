@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, VStack, HStack, Text, Link, Image, useColorModeValue } from '@chakra-ui/react'
+import { Box, Container, VStack, HStack, Text, Link, useColorModeValue } from '@chakra-ui/react'
 import { siteOwner } from '@/site.config'
 
 const Footer: React.FC = () => {
