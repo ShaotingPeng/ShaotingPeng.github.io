@@ -1,0 +1,110 @@
+{
+  "_comment": "Your basic info. Edit the values below, then run: npm run dev",
+  "name": {
+    "full": "Shaoting shu",
+    "first": "Shaoting",
+    "nickname": "Shaoting",
+    "last": "Peng",
+    "display": "Shaoting Peng",
+    "authorVariants": [
+      "Shaoting Peng"
+    ]
+  },
+  "title": "Hi there, I'm Shaoting Peng",
+  "avatar": "pst.jpeg",
+  "terminal": {
+    "username": "shaoting",
+    "rotatingSubtitles": [
+      "Robot 🤖",
+      "Cat 🐱",
+      "Love ❤️"
+    ],
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Go",
+      "PyTorch",
+      "React",
+      "ROS2",
+      "Docker",
+      "Kubernetes"
+    ],
+    "timezone": "America/Chicago"
+  },
+  "contact": {
+    "email": "peng33@illinois.edu",
+    "academicEmail": "peng33@illinois.edu",
+    "hiringEmail": "peng33@illinois.edu",
+    "location": "USA"
+  },
+  "social": {
+    "github": "https://github.com/capy8ra",
+    "linkedin": "https://www.linkedin.com/in/shaoting-peng-48221b273/",
+    "medium": "",
+    "googleScholar": "https://scholar.google.com/citations?user=SSA-u_EAAAAJ&hl=en",
+    "twitter": "",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": ""
+  },
+  "pets": [
+    {
+      "name": "小mer",
+      "emoji": "",
+      "image": "/images/mer.jpg",
+      "description": "Chief Human Rubbing Specialist | Head of Affection & Cuddle Operations | Director of Strategic Headbutts"
+    },
+    {
+      "name": "Cosmos",
+      "emoji": "",
+      "image": "/images/cosmos.jpg",
+      "description": "Chief Nap Officer | Senior Food Quality Inspector | Chair Occupancy Manager. Co-advised with Nikki"
+    }
+  ],
+  "features": {
+    "publications": false,
+    "projects": false,
+    "articles": false,
+    "experience": false,
+    "news": true,
+    "pets": true,
+    "guide": false
+  },
+  "heroSocialIcons": [
+    {
+      "platform": "email",
+      "icon": "FaEnvelope",
+      "label": "Email",
+      "color": "#EA4335"
+    },
+    {
+      "platform": "github",
+      "icon": "FaGithub",
+      "label": "GitHub",
+      "color": "#333"
+    },
+    {
+      "platform": "linkedin",
+      "icon": "FaLinkedin",
+      "label": "LinkedIn",
+      "color": "#0A66C2"
+    },
+    {
+      "platform": "googleScholar",
+      "icon": "SiGooglescholar",
+      "label": "Google Scholar",
+      "color": "#4285F4"
+    }
+  ],
+  "selectedPublicationIds": [
+    "preprint-bayesian-persuasion",
+    "icra2026-tactile-nav",
+    "rss2025-uupl",
+    "iros2024-rtl",
+    "roman2024-tracking",
+    "icra2024-opf",
+    "icra2024-eeg"
+  ]
+}

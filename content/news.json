@@ -1,0 +1,110 @@
+[
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "Paper accepted to ICRA 2026",
+    "description": "\"Tactile-Based Human Intent Recognition for Robot Assistive Navigation\" accepted to ICRA 2026. See you in Vienna!",
+    "date": "Feb 2026",
+    "sortDate": "2026-02-01",
+    "links": [
+      { "text": "Project Page", "url": "https://sites.google.com/view/tac-nav/home", "icon": "FaGlobe" },
+      { "text": "Arxiv", "url": "https://arxiv.org/abs/2509.16353", "icon": "FaFileAlt" }
+    ]
+  },
+  {
+    "type": "talk",
+    "badge": "Talk",
+    "icon": "FaChalkboardTeacher",
+    "iconColor": "purple.400",
+    "title": "Invited talk at CMU Robotic Caregiving and Human Interaction Lab",
+    "description": "Invited talk at the Robotic Caregiving and Human Interaction Lab at Carnegie Mellon University.",
+    "date": "Dec 2025",
+    "sortDate": "2025-12-15",
+    "links": [
+      { "text": "RCHI Lab", "url": "https://rchi-lab.github.io/", "icon": "FaGlobe" }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "Milestone",
+    "icon": "FaGraduationCap",
+    "iconColor": "yellow.400",
+    "title": "Passed PhD candidacy qualifying exam!",
+    "description": "Successfully passed the PhD candidacy qualifying exam at UIUC ECE.",
+    "date": "Dec 2025",
+    "sortDate": "2025-12-01",
+    "links": []
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "Paper accepted to RSS 2025",
+    "description": "\"Towards Uncertainty Unification: A Case Study for Preference Learning\" accepted to RSS 2025.",
+    "date": "Apr 2025",
+    "sortDate": "2025-04-01",
+    "links": [
+      { "text": "Project Page", "url": "https://sites.google.com/view/uupl-rss25/home", "icon": "FaGlobe" },
+      { "text": "Arxiv", "url": "https://arxiv.org/pdf/2503.19317v2", "icon": "FaFileAlt" },
+      { "text": "Code", "url": "https://github.com/capy8ra/UUPL", "icon": "FaGithub" }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "Paper accepted to IROS 2024",
+    "description": "\"Reactive Temporal Logic-based Planning and Control for Interactive Robotic Tasks\" accepted to IROS 2024.",
+    "date": "Jul 2024",
+    "sortDate": "2024-07-01",
+    "links": [
+      { "text": "Project Page", "url": "https://sites.google.com/view/rtl-plan-control-hri/home", "icon": "FaGlobe" },
+      { "text": "Arxiv", "url": "https://arxiv.org/abs/2404.19594", "icon": "FaFileAlt" }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "Paper accepted to RO-MAN 2024",
+    "description": "\"A Robust Filter for Marker-less Multi-person Tracking in Human-Robot Interaction Scenarios\" accepted to RO-MAN 2024.",
+    "date": "May 2024",
+    "sortDate": "2024-05-01",
+    "links": [
+      { "text": "Project Page", "url": "https://penn-figueroa-lab.github.io/markerless-human-perception/", "icon": "FaGlobe" },
+      { "text": "Arxiv", "url": "https://arxiv.org/abs/2406.01832", "icon": "FaFileAlt" }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "Milestone",
+    "icon": "FaGraduationCap",
+    "iconColor": "green.400",
+    "title": "Starting PhD at UIUC ECE",
+    "description": "Starting PhD at University of Illinois Urbana-Champaign ECE, advised by Dr. Katherine Driggs-Campbell.",
+    "date": "Apr 2024",
+    "sortDate": "2024-04-01",
+    "links": [
+      { "text": "HCA Lab", "url": "https://thehcalab.web.illinois.edu/", "icon": "FaGlobe" }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "Two papers accepted to ICRA 2024",
+    "description": "\"Object Permanence Filter for Robust Tracking with Interactive Robots\" and \"On the Feasibility of EEG-based Motor Intention Detection\" accepted to ICRA 2024.",
+    "date": "Feb 2024",
+    "sortDate": "2024-02-01",
+    "links": [
+      { "text": "OPF Paper", "url": "https://arxiv.org/abs/2403.08231", "icon": "FaFileAlt" },
+      { "text": "EEG Paper", "url": "https://arxiv.org/abs/2403.08149", "icon": "FaFileAlt" }
+    ]
+  }
+]
