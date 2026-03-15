@@ -26,8 +26,7 @@
       "PyTorch",
       "React",
       "ROS2",
-      "Docker",
-      "Kubernetes"
+      "Docker"
     ],
     "timezone": "America/Chicago"
   },
