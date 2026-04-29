@@ -50,16 +50,10 @@
   },
   "pets": [
     {
-      "name": "小mer",
+      "name": "小(Hsiao) Mer",
       "emoji": "",
       "image": "/images/mer.jpg",
       "description": "Chief Human Rubbing Specialist | Head of Affection & Cuddle Operations | Director of Strategic Headbutts"
-    },
-    {
-      "name": "Cosmos",
-      "emoji": "",
-      "image": "/images/cosmos.jpg",
-      "description": "Chief Nap Officer | Senior Food Quality Inspector | Chair Occupancy Manager. Co-advised with Nikki"
     }
   ],
   "features": {
