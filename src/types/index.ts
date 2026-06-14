@@ -153,6 +153,7 @@ export interface Publication {
     demo?: string
   }
   specialBadges?: string[]
+  award?: string
   citations?: number
   isFirstAuthor?: boolean
   isCorrespondingAuthor?: boolean

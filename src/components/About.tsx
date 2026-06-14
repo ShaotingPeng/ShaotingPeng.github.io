@@ -138,6 +138,16 @@ const PublicationCard = ({ pub }: { pub: any }) => {
             )}
           </VStack>
 
+          {/* Award */}
+          {pub.award && (
+            <HStack spacing={1.5} align="center">
+              <DynamicIcon name="FaTrophy" boxSize={3} color={useColorModeValue('orange.500', 'yellow.400')} />
+              <Text fontSize="xs" fontWeight="semibold" color={useColorModeValue('orange.600', 'yellow.300')}>
+                {pub.award}
+              </Text>
+            </HStack>
+          )}
+
           {/* Divider */}
           <Box w="full" h="1px" bg={useColorModeValue('gray.100', 'gray.700')} />
 

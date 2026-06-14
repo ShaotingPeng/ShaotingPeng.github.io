@@ -8,6 +8,7 @@ year: 2025
 status: accepted
 isFirstAuthor: true
 specialBadges: [First Author]
+award: "Best Paper Award @ ICRA 2026 Workshop on Uncertainty in Open-World Robotics"
 featuredImage: /images/UUPL.png
 links:
   projectPage: https://sites.google.com/view/uupl-rss25/home

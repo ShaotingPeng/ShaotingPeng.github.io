@@ -8,6 +8,7 @@ year: 2026
 status: accepted
 isFirstAuthor: true
 specialBadges: [First Author]
+award: "Next-Gen Spotlight Award @ ICRA 2026 Workshop on Bridging the Gap between Robot Learning and Human-Robot Interaction"
 featuredImage: /images/tactile.png
 links:
   projectPage: https://sites.google.com/view/tac-nav/home

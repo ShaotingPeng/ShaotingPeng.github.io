@@ -31,7 +31,7 @@ import {
 } from '@chakra-ui/react'
 import { keyframes } from '@emotion/react'
 import { publications, getPublicationStats } from '../data'
-import { FaChartBar, FaVideo, FaProjectDiagram, FaFileAlt, FaAtom, FaStar, FaRobot, FaGlobe, FaHandRock, FaCloudSun, FaFutbol } from 'react-icons/fa'
+import { FaChartBar, FaVideo, FaProjectDiagram, FaFileAlt, FaAtom, FaStar, FaRobot, FaGlobe, FaHandRock, FaCloudSun, FaFutbol, FaTrophy } from 'react-icons/fa'
 import { IconType } from 'react-icons'
 import { highlightData } from '../utils/highlightData'
 import { siteOwner } from '@/site.config'
@@ -578,6 +578,15 @@ const PublicationsTerminal: React.FC = () => {
                         </Text>
                       )}
                     </Text>
+                    {/* Award */}
+                    {pub.award && (
+                      <HStack spacing={1.5} mt={1} align="center">
+                        <Icon as={FaTrophy} boxSize={3} color={termWarning} />
+                        <Text fontSize="xs" color={termWarning} fontWeight="semibold">
+                          {pub.award}
+                        </Text>
+                      </HStack>
+                    )}
                   </Box>
                   
                   {/* Resources */}
