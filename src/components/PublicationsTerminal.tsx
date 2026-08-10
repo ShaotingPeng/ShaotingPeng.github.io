@@ -587,6 +587,22 @@ const PublicationsTerminal: React.FC = () => {
                         </Text>
                       </HStack>
                     )}
+                    {/* Media coverage */}
+                    {pub.media && (
+                      <HStack spacing={1.5} mt={1} align="center">
+                        <Icon as={FaVideo} boxSize={3} color={termInfo} />
+                        <Link
+                          href={pub.media.url}
+                          isExternal
+                          onClick={(e) => e.stopPropagation()}
+                          fontSize="xs"
+                          color={termInfo}
+                          fontWeight="semibold"
+                        >
+                          {pub.media.label}
+                        </Link>
+                      </HStack>
+                    )}
                   </Box>
                   
                   {/* Resources */}

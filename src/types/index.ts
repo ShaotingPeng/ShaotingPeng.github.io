@@ -154,6 +154,10 @@ export interface Publication {
   }
   specialBadges?: string[]
   award?: string
+  media?: {
+    label: string
+    url: string
+  }
   citations?: number
   isFirstAuthor?: boolean
   isCorrespondingAuthor?: boolean

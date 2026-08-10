@@ -148,6 +148,22 @@ const PublicationCard = ({ pub }: { pub: any }) => {
             </HStack>
           )}
 
+          {/* Media coverage */}
+          {pub.media && (
+            <HStack spacing={1.5} align="center">
+              <DynamicIcon name="FaVideo" boxSize={3} color={useColorModeValue('cyan.600', 'cyan.400')} />
+              <Link
+                href={pub.media.url}
+                isExternal
+                fontSize="xs"
+                fontWeight="semibold"
+                color={useColorModeValue('cyan.600', 'cyan.300')}
+              >
+                {pub.media.label}
+              </Link>
+            </HStack>
+          )}
+
           {/* Divider */}
           <Box w="full" h="1px" bg={useColorModeValue('gray.100', 'gray.700')} />
 

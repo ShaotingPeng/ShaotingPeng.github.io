@@ -9,6 +9,9 @@ status: accepted
 isFirstAuthor: true
 specialBadges: [First Author]
 award: "Next-Gen Spotlight Award @ ICRA 2026 Workshop on Bridging the Gap between Robot Learning and Human-Robot Interaction"
+media:
+  label: "Media coverage: Featured in IEEE Spectrum Video Friday"
+  url: "https://spectrum.ieee.org/video-friday-heavy-lift-drone#:~:text=A%20little%20on%20the%20technical%20side%2C%20but%20the%20concept%20here%20is%20important%2C%20I%20think%3A%20being%20able%20to%20control%20an%20assistive%20robot%20through%20touch."
 featuredImage: /images/tactile.png
 links:
   projectPage: https://sites.google.com/view/tac-nav/home
