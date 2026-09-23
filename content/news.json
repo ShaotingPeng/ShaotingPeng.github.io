@@ -1,5 +1,19 @@
 [
   {
+    "type": "internship",
+    "badge": "Internship",
+    "icon": "FaBriefcase",
+    "iconColor": "yellow.400",
+    "title": "Research intern at Ant Group",
+    "description": "Worked on HapticWorld project advised by James Jingxi Xu.",
+    "date": "Jun 2026 – Sep 2026",
+    "sortDate": "2026-09-01",
+    "links": [
+      { "text": "Project Page", "url": "https://haptic-world.github.io/", "icon": "FaGlobe" },
+      { "text": "Advisor", "url": "https://jxu.ai/", "icon": "FaGlobe" }
+    ]
+  },
+  {
     "type": "publication",
     "badge": "Publication",
     "icon": "FaFileAlt",
