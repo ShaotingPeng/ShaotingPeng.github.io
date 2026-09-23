@@ -2,7 +2,8 @@ import { Box, VStack, Text, useColorModeValue, Image, HStack, Container, Stack, 
 import { motion } from 'framer-motion'
 import { withBase } from '@/utils/asset'
 import DynamicIcon from '../DynamicIcon'
-import { siteOwner, siteConfig, heroSocialIcons } from '@/site.config'
+import { siteOwner, heroSocialIcons } from '@/site.config'
+import PetGallery from './PetGallery'
 
 const MotionBox = motion(Box)
 const MotionText = motion(Text)
@@ -196,29 +197,7 @@ const HeroSection = ({ title, avatar }: HeroSectionProps) => {
                 boxSize={["160px", "190px", "230px"]}
                 objectFit="cover"
               />
-              {(siteConfig.pets as { name: string; emoji: string; image: string; title: string; description: string }[]).length > 0 && (
-                <HStack spacing={[8, 12]} justify="center" mt={[3, 4]}>
-                  {(siteConfig.pets as { name: string; emoji: string; image: string; title: string; description: string }[]).map((pet) => (
-                    <Tooltip key={pet.name} label={pet.description} fontSize="xs" hasArrow placement="bottom" openDelay={200} fontFamily="mono">
-                      <VStack spacing={1} cursor="default">
-                        {pet.image && (
-                          <Image
-                            src={pet.image}
-                            alt={pet.name}
-                            borderRadius="full"
-                            boxSize={["60px", "72px"]}
-                            objectFit="cover"
-                          />
-                        )}
-                        <Text fontSize="sm" fontWeight="medium">{pet.name} {pet.emoji}</Text>
-                        {pet.title && (
-                          <Text fontSize="xs" color="gray.500">{pet.title}</Text>
-                        )}
-                      </VStack>
-                    </Tooltip>
-                  ))}
-                </HStack>
-              )}
+              <PetGallery />
             </VStack>
           </MotionBox>
         </Stack>

@@ -20,6 +20,22 @@ export const siteConfig = siteJson
 // Derived values — computed automatically, do NOT edit
 // ═══════════════════════════════════════════════════════════════
 
+/**
+ * A pet shown in the hero. `image` is the round thumbnail;
+ * `photo` (optional) is the full portrait opened on click.
+ */
+export type Pet = {
+  name: string
+  emoji?: string
+  image: string
+  title?: string
+  description: string
+  photo?: string
+}
+
+/** Pets from content/site.json, typed */
+export const pets = siteConfig.pets as Pet[]
+
 /** GitHub username extracted from URL */
 export const githubUsername = siteConfig.social.github.split('/').pop() ?? ''
 
@@ -63,5 +79,5 @@ export const siteOwner = {
   social: siteConfig.social,
   timezone: siteConfig.terminal.timezone,
   skills: siteConfig.terminal.skills,
-  pets: siteConfig.pets as { name: string; emoji: string; image: string; title: string; description: string }[],
+  pets,
 } as const
