@@ -136,7 +136,7 @@ const HeroSection = ({ title, avatar }: HeroSectionProps) => {
 
             {/* Bio */}
             <Box maxW={["full", "full", "900px"]} fontSize="xs" color={textColor} lineHeight="tall" textAlign={['center', 'center', 'left']}>
-              <Text as="span">I am a second-year Ph.D. candidate advised by </Text>
+              <Text as="span">I am a third-year Ph.D. candidate advised by </Text>
               <Link href="https://thehcalab.web.illinois.edu/" isExternal color="cyan.600" _hover={{ color: 'cyan.400' }}>Dr. Katherine Driggs-Campbell</Link>
               <Text as="span"> at University of Illinois Urbana-Champaign (UIUC) Electrical and Computer Engineering (ECE) department. I received my M.S.E. in Robotics from </Text>
               <Link href="https://www.grasp.upenn.edu/" isExternal color="cyan.600" _hover={{ color: 'cyan.400' }}>GRASP Lab</Link>
