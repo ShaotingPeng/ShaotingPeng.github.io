@@ -294,7 +294,7 @@ export default function About() {
                   <Box flex="1" h="1px" bg={useColorModeValue('gray.200', 'gray.700')} />
                 </Flex>
 
-                <NewsTimeline news={sortedNews} showHeader={false} />
+                <NewsTimeline news={sortedNews} />
               </Box>
 
               {/* Main Content Sections */}
