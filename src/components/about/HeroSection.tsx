@@ -55,12 +55,13 @@ const HeroSection = ({ title, avatar }: HeroSectionProps) => {
             >
               <MotionText
                 as="span"
-                color="yellow.400"
+                role="img"
+                aria-label="Waving hand"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
               >
-                $
+                👋
               </MotionText>
               <MotionText
                 as="span"
