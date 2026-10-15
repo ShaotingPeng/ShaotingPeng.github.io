@@ -11,9 +11,9 @@ specialBadges: [First Author]
 featuredImage: /images/hapticworld.gif
 links:
   projectPage: https://haptic-world.github.io/
-  # arxiv: https://arxiv.org/abs/2403.08149
+  arxiv: https://arxiv.org/abs/2609.31924
   # code: https://github.com/penn-figueroa-lab/eeg-human-action-classification
-  # demo: https://www.youtube.com/watch?v=PWn2LCZLi9I
+  demo: https://www.youtube.com/watch?v=2f5SRiIjr0A
 emoji: "🌍"
 ---
 
