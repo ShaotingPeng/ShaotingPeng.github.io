@@ -8,6 +8,27 @@ import PetGallery from './PetGallery'
 const MotionBox = motion(Box)
 const MotionText = motion(Text)
 
+const SUBTITLE_HOLD_SECONDS = 1.2
+const SUBTITLE_SLIDE_SECONDS = 0.4
+
+// The first subtitle is repeated at the end of the list, so the last slide lands on
+// a row identical to the first and the animation can restart without a visible jump.
+const loopedSubtitles = [...siteOwner.rotatingSubtitles, ...siteOwner.rotatingSubtitles.slice(0, 1)]
+
+// Hold on each row, then slide up one row. Offsets are percentages of the list's own
+// height, so they stay aligned at every breakpoint's row height.
+function buildSubtitleLoop(count: number) {
+  const rowPercent = 100 / (count + 1)
+  const cycle = SUBTITLE_HOLD_SECONDS + SUBTITLE_SLIDE_SECONDS
+  const duration = count * cycle
+  const rows = Array.from({ length: count }, (_, i) => i)
+  const y = [...rows.flatMap((i) => [`${-i * rowPercent}%`, `${-i * rowPercent}%`]), `${-count * rowPercent}%`]
+  const times = [...rows.flatMap((i) => [(i * cycle) / duration, (i * cycle + SUBTITLE_HOLD_SECONDS) / duration]), 1]
+  return { y, times, duration }
+}
+
+const subtitleLoop = buildSubtitleLoop(siteOwner.rotatingSubtitles.length)
+
 interface HeroSectionProps {
   title: string
   avatar: string
@@ -109,15 +130,15 @@ const HeroSection = ({ title, avatar }: HeroSectionProps) => {
               {/* <Text fontSize={["xs", "sm"]} color={useColorModeValue('gray.600', 'gray.400')}>Sometimes I</Text> */}
               <Box h={["18px", "20px", "24px"]} overflow="hidden">
                 <MotionBox
-                  animate={{ y: [5, -13, -31, -49, 5] }}
+                  animate={{ y: subtitleLoop.y }}
                   transition={{
-                    duration: 4.5,
-                    times: [0, 0.15, 0.3, 0.45],
+                    duration: subtitleLoop.duration,
+                    times: subtitleLoop.times,
                     repeat: Infinity,
-                    ease: "linear"
+                    ease: "easeInOut"
                   }}
                 >
-                  {siteOwner.rotatingSubtitles.map((text, index) => (
+                  {loopedSubtitles.map((text, index) => (
                     <Text
                       key={index}
                       h={["18px", "20px", "24px"]}
