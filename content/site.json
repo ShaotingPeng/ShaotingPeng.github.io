@@ -93,6 +93,8 @@
     }
   ],
   "selectedPublicationIds": [
+    "preprint-self-labeled-preference",
+    "preprint-dynamism-trajectory",
     "hapticworld",
     "preprint-bayesian-persuasion",
     "icra2026-tactile-nav",
