@@ -10,7 +10,8 @@ isFirstAuthor: false
 isCoFirst: true
 coFirstAuthors: [Shaoting Peng, Xiangyu Zeng]
 featuredImage: /images/SPT.gif
-links: {}
+links:
+  arxiv: https://arxiv.org/abs/2610.38000
 emoji: "☕"
 ---
 
