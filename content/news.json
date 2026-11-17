@@ -1,5 +1,18 @@
 [
   {
+    "type": "award",
+    "badge": "Award",
+    "icon": "FaTrophy",
+    "iconColor": "yellow.400",
+    "title": "Recognized as a CoRL 2026 Outstanding Reviewer",
+    "description": "Named an Outstanding Reviewer at the Conference on Robot Learning (CoRL) 2026.",
+    "date": "Nov 2026",
+    "sortDate": "2026-11-01",
+    "links": [
+      { "text": "Outstanding Reviewers", "url": "https://www.corl.org/program/outstanding-reviewers-and-acs", "icon": "FaGlobe" }
+    ]
+  },
+  {
     "type": "internship",
     "badge": "Internship",
     "icon": "FaBriefcase",

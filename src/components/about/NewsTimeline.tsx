@@ -46,6 +46,7 @@ const TYPE_ACCENTS: Record<string, { color: PaletteKey; icon: string }> = {
   course: { color: 'param', icon: 'FaGraduationCap' },
   release: { color: 'prompt', icon: 'FaRocket' },
   internship: { color: 'highlight', icon: 'FaBriefcase' },
+  award: { color: 'highlight', icon: 'FaTrophy' },
 }
 
 const DEFAULT_ACCENT = { color: 'prompt', icon: 'FaCode' } as const
