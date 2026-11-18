@@ -46,7 +46,8 @@
     "bilibili": "",
     "zhihu": "",
     "csdn": "",
-    "blog": ""
+    "blog": "",
+    "resume": "/Shaoting_Peng_Resume.pdf"
   },
   "pets": [
     {
@@ -90,6 +91,12 @@
       "icon": "SiGooglescholar",
       "label": "Google Scholar",
       "color": "#4285F4"
+    },
+    {
+      "platform": "resume",
+      "icon": "FaFileAlt",
+      "label": "Resume",
+      "color": "#0891B2"
     }
   ],
   "selectedPublicationIds": [
