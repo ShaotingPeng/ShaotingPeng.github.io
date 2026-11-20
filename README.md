@@ -1,8 +1,8 @@
 # Shaoting Peng — Personal Website
 
-I am a second-year Ph.D. candidate at the University of Illinois Urbana-Champaign (UIUC), advised by [Dr. Katherine Driggs-Campbell](https://thehcalab.web.illinois.edu/) in the Electrical and Computer Engineering department. I received my M.S.E. in Robotics from the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania, co-advised by Dr. Nadia Figueroa and Dr. Ruzena Bajcsy. Prior to that, I received my B.E. in Computer Science from ShanghaiTech University in 2022.
+I am a third-year Ph.D. candidate at the University of Illinois Urbana-Champaign (UIUC), advised by [Dr. Katherine Driggs-Campbell](https://thehcalab.web.illinois.edu/) in the Electrical and Computer Engineering department. I received my M.S.E. in Robotics from the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania, co-advised by Dr. Nadia Figueroa and Dr. Ruzena Bajcsy. Prior to that, I received my B.E. in Computer Science from ShanghaiTech University in 2022.
 
-My research interests lie in human-robot interaction (HRI), particularly in preference learning and intent recognition. I am especially interested in assistive technologies such as eldercare robots, which require safe and efficient HRI algorithms.
+My research lies at the intersection of human-robot interaction (HRI) and robot foundation models. Today's VLA policies and world models learn from large robot datasets in which people are largely absent, yet these robots will be deployed to work alongside and collaborate with humans. I aim to build human-aware robot foundation models that understand human intent and preferences, can be steered by human input, and stay grounded in the physical interaction between people and robots.
 
 - **Email:** peng33@illinois.edu
 - **GitHub:** [capy8ra](https://github.com/capy8ra)

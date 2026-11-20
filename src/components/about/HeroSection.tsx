@@ -175,8 +175,9 @@ const HeroSection = ({ title, avatar }: HeroSectionProps) => {
             </Box>
 
             <Box maxW={["full", "full", "900px"]} fontSize="xs" color={textColor} lineHeight="tall" textAlign={['center', 'center', 'left']}>
-              My research interests lie in human-robot interaction (HRI), particularly in preference learning and intent recognition. From an application 
-              perspective, I am especially interested in assistive technologies, such as eldercare robots, which require safe and efficient HRI algorithms.
+              My research lies at the intersection of human-robot interaction (HRI) and robot foundation models. Today's VLA policies and world models learn from large robot datasets 
+              in which people are largely absent, yet these robots will be deployed to work alongside and collaborate with humans. I aim to build human-aware robot foundation models that 
+              understand human intent and preferences, can be steered by human input, and stay grounded in the physical interaction between people and robots.
             </Box>
 
 
